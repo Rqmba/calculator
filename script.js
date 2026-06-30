@@ -66,7 +66,11 @@ buttons.forEach((button) => {
       operate(firstNumber, displayValue);
       displayValue = operate(operator, firstNumber, displayValue);
 
-      display.textContent = displayValue;
+      if (Number.isInteger(displayValue)) {
+        display.textContent = displayValue;
+      } else {
+        display.textContent = displayValue.toFixed(2);
+      }
     }
     if (e.target.textContent === "AC") {
       firstNumber = null;
