@@ -19,4 +19,4 @@ Supports basic arithmetic operations with edge case handling.
 - JavaScript (DOM manipulation)
 
 ## Demo
-*(GitHub Pages link to be added once finished)*
+https://rqmba.github.io/calculator/
