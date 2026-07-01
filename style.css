@@ -52,3 +52,13 @@ body {
 .action {
   background-color: #636366;
 }
+
+/* Responsive */
+
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+  }
+}
